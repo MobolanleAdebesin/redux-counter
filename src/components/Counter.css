@@ -1,0 +1,23 @@
+.Counter-container {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right top, #4c5cab 0%, #8e71ff 100%);
+}
+.Counter-quantity-container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3rem;
+}
+.Counter-button-container {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
